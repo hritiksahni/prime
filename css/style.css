@@ -63,8 +63,9 @@
 
 .prouct-slider-icepop .slide.active, .prouct-slider-metamoon .slide.active, .prouct-slider-grape .slide.active{
     clip-path: polygon(0 0, 0 50%, 0 100%, 100% 99%, 100% 50%, 100% 0);
+    transition: background-image 1s ease-in-out;
+    /* transition-property: clip-path; */
     transition: 2s ease;
-    transition-property: clip-path;
 }
 
 
@@ -273,4 +274,6 @@ a:hover{
     display: flex;
     justify-content: center;
     border: none;
+    flex-direction: column;
+    align-items: center;
 }
